@@ -1,0 +1,43 @@
+body {
+    background: rgb(0, 0, 0);
+    padding-top: 25em;
+    display: flex;
+    justify-content: center;
+}
+
+div {
+    height: 200px;
+    width: 400px;
+    background: black;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.typewriter h1 {
+    color: #fff;
+    font-family: monospace;
+    overflow: hidden;
+    border-right: 0.15em solid orange;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: 0.15em;
+    animation: typing 4.5s steps(40, end);
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}

@@ -1,3 +1,3 @@
-**DoWaqtKiRoti**
+**Dowaqtkiroti**
 
-**Keemat samjho saahab**g
+Keemat samjho saahab
