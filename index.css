@@ -10,7 +10,6 @@ body {
 }
 
 .details {
-
     position: fixed;
     top: 50%;
     left: 50%;
@@ -18,12 +17,12 @@ body {
     margin-left: -200px;
 }
 
- a:link {
+a {
     text-decoration: none;
 }
 
-:-webkit-any-link {
-    color: #fff
+:any-link {
+    color: #fff 
 }
 
 .typewriter h1 {
