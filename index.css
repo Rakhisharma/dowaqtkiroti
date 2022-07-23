@@ -1,14 +1,16 @@
 body {
     background: rgb(0, 0, 0);
-    padding-top: 25em;
-    display: flex;
-    justify-content: center;
 }
 
-div {
-    height: 200px;
-    width: 400px;
-    background: black;
+.header {
+    color: #fff;
+    font-family: monospace;
+    margin:12px;
+    float: right;
+}
+
+.details {
+
     position: fixed;
     top: 50%;
     left: 50%;
@@ -16,8 +18,12 @@ div {
     margin-left: -200px;
 }
 
-a:link {
+ a:link {
     text-decoration: none;
+}
+
+:-webkit-any-link {
+    color: #fff
 }
 
 .typewriter h1 {
